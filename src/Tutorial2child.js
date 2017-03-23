@@ -28,8 +28,7 @@ function wrongText(buttonColor) {
 class Tutorial2child extends Component {
     state = {
         button1Color: "",
-        button2Color: "",
-        winner: ""
+        button2Color: ""
     };
 
     componentDidMount() {
@@ -53,7 +52,7 @@ class Tutorial2child extends Component {
 
     handleClick2 = event => {
         {
-            /*if button 1 is clicked*/
+            /*if button 2 is clicked*/
         }
         //event.preventDefault();
         if (this.props.winner == 2) {
